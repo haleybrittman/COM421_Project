@@ -54,7 +54,7 @@ p.para-fontsize {
 aside {
 	margin-left: 725px;
 	position: absolute;
-	background-color: lightgray;
+	background-color: #f4f4f4;
 	border-radius: 25px;
 	width: 265px;
 }
