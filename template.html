@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Template</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
+    <style>
+        /* Example inline styling for demo purposes, ideally in an external stylesheet */
+
+        /* General layout */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header, aside {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        /* Navigation styling */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Aside Styling */
+        aside {
+            float: right;
+            width: 25%;
+        }
+
+        /* Example classes */
+        .box {
+            border: 2px solid #ddd;
+            padding: 10px;
+            margin-top: 15px;
+            background-color: #eaeaea;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Module Template Example</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="template.html">Add New Module</a> <!-- Link to this template in top-level navigation -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content structure -->
+    <section>
+        <h2>Main Content Section</h2>
+        <p>This section is where the main content for a module would go. Below is an example of <span class="highlight">highlighted text</span> using a specific CSS class to style it differently.</p>
+        
+        <!-- Example of multiple nested elements -->
+        <div class="box">
+            <h3>Nested Box Section</h3>
+            <p>This is a nested box element with its own background color and padding.</p>
+            <!-- HTML Comment: Use the "box" class to style any nested sections with similar formatting -->
+        </div>
+
+        <p>Additional paragraphs or elements can go here as part of the module content.</p>
+    </section>
+
+    <!-- Sidebar/Aside section -->
+    <aside>
+        <h2>Aside Section</h2>
+        <p>This is an example of an aside element, where you can place supplementary information related to the main content.</p>
+        <!-- HTML Comment: Add notes here if a combination of classes is used for custom styling -->
+    </aside>
+
+
+</body>
+</html>
