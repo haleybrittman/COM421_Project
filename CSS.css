@@ -1,5 +1,5 @@
 
-/* Research Paper Toolbox Title*/
+/* Styling for Research Paper Toolbox Title*/
 h1.RPT {
 	font-family:  "Poppins", sans-serif;
 	text-align: center;
@@ -60,7 +60,7 @@ aside {
 }
 
 
-
+/* Organize Analyze Title*/
 h1.OrganizeAnalyzeTitle {
 	font-family:  "Poppins", sans-serif;
 	font-size: 189%;
@@ -68,7 +68,7 @@ h1.OrganizeAnalyzeTitle {
 
 }
 
-#temp {
+p.paragraph_spacing {
 	margin-top: -15px;
 }
 
@@ -80,9 +80,11 @@ img {
 }
 
 
+/* bolding for specific text*/
 b.bold {
 	font-weight: bold;
 }
+
 
 /* blue text*/
 .blue-text {
@@ -90,7 +92,7 @@ b.bold {
 	font-weight: 420;
 }
 
-
+/* Styling for Realistic Research title*/
 h1.RealisticResearchTitle{
 	font-family:  "Poppins", sans-serif;
 	padding-bottom: 0px;
@@ -98,16 +100,19 @@ h1.RealisticResearchTitle{
 
 }
 
-
 /* making empty bullet */
 li.empty-bullet {
 	margin-left: 18px;
 	list-style-type: circle;
 }
 
-
-
+/* bolding for list */
 li.list-bold {
 	font-weight: 900;
+}
+
+/* Styling for template aside window */
+aside.template_aside {
+	padding: 35px;
 }
 
