@@ -1,36 +1,40 @@
-
-/* Styling for Research Paper Toolbox Title*/
+/* Styling for Research Paper Toolbox Title */
 h1.RPT {
-	font-family:  "Poppins", sans-serif;
-	text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
 }
-
 
 body {
-	font-family:  "Poppins", sans-serif;
-	background-color:rgb(210, 182, 235);
-	margin-left: auto;
-	width: 700px;
-	margin-right: auto;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(210, 182, 235);
+    margin-left: auto;
+    width: 700px;                 /* Keeps the main content centered */
+    margin-right: auto;
 }
 
+nav {
+    width: 100vw;                 /* Full viewport width */
+    position: relative;           /* Allows nav to ignore body width */
+    left: 50%;                    /* Center position to compensate for body's centering */
+    transform: translateX(-50%);  /* Centers the nav across viewport */
+    background-color: rgb(181, 226, 245);
+    padding: 10px 0;              /* Adds padding around the links */
+}
 
 nav ul {
     list-style: none;
-	padding: 10px 0px 10px 0px;
-	background-color: rgb(181, 226, 245)
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
-
 
 nav ul li {
-	display: inline;
-	margin-left: 90px;
-	font-size: 15px;
+    margin: 0 15px;
+    font-size: 15px;
 }
 
-
 nav a {
-	text-decoration: none;   
+    text-decoration: none;
 }
 
 
